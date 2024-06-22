@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<!--    <parent>-->
+<!--        <artifactId>code-interview</artifactId>-->
+<!--        <groupId>cn.halo.interview</groupId>-->
+<!--        <version>1.0-SNAPSHOT</version>-->
+<!--    </parent>-->
+<!--    <modelVersion>4.0.0</modelVersion>-->
+<!--    <modelVersion>4.0.0</modelVersion>-->
+<!--    <groupId>cn.halo</groupId>-->
+<!--    <artifactId>pmz-check-admin-web</artifactId>-->
+<!--    <version>1.0.0-SNAPSHOT</version>-->
+<!--    <packaging>jar</packaging>-->
+<!--    <name>play-piano</name>-->
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cn.halo</groupId>
+    <artifactId>play-piano</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <packaging>jar</packaging>
+    <name>fastjson</name>
+    <dependencies>
+        <dependency>
+            <groupId>com.googlecode.soundlibs</groupId>
+            <artifactId>mp3spi</artifactId>
+            <version>1.9.5.4</version>
+        </dependency>
+        <!-- 如果需要解码播放flac文件则引入这个jar包 -->
+        <dependency>
+            <groupId>org.jflac</groupId>
+            <artifactId>jflac-codec</artifactId>
+            <version>1.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.ambitiousliu</groupId>
+            <artifactId>jmp-extension</artifactId>
+            <version>3.1.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.5</version>
+        </dependency>
+    </dependencies>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>
